@@ -1,0 +1,20 @@
+<template name="featured">
+	<div class="center-header">
+		<h3>Featured Articles</h3>
+	</div>
+	<div class="row">
+		<div class="col-lg-12"> 
+			{{#each featuredList}}
+			<!-- Sets "this" equal to the iterated object in the array -->
+			<p>hello</p>
+				{{> articleItem}}
+			{{/each}}
+
+			{{#each posts}}
+			<!-- Sets "this" equal to the iterated object in the array -->
+			<p>hello</p>
+			{{> articleItem}}
+			{{/each}}
+		</div>
+	</div>
+</template>

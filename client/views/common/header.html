@@ -1,0 +1,24 @@
+<template name="header">
+  <div class="navbar navbar-inverse">
+    <div class="navbar-header">
+      <!-- This contains the header for the Scio app, with class of brand -->
+      <a class="navbar-brand" href="/">ReelNews</a>
+    </div>
+
+    <!-- This is the section of the navbar that will include the different routes that can be selected -->
+    <div class="navbar-collapse collapse navbar-inverse-collapse">
+      <ul class="nav navbar-nav">
+        <!-- Each of these items is attached to a handlebars helper to set to active if needed -->
+        <li class="{{activeRouteClass 'featured'}}"><a href="{{pathFor 'featured'}}">Featured News</a></li>
+        <li class="{{activeRouteClass 'popular'}}"><a href="{{pathFor 'popular'}}">Popular News</a></li>
+        <li class="{{activeRouteClass 'search'}}"><a href="{{pathFor 'search'}}">Search for Articles</a></li>
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+        <!-- Adding accounts-ui-bootstrap-3 for account authentification and creation -->
+        {{loginButtons}}
+      </ul>
+
+    </div>
+  </div>
+</template>

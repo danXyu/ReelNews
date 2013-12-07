@@ -1,0 +1,1 @@
+Contexts = new Meteor.Collection('contexts');

@@ -1,0 +1,1 @@
+An application built around Meteor.js known as ReelNews. Is an enhanced news serving website that allows for users to submit contexts for each of the articles, all of which are stored on a database.
