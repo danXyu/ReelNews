@@ -1,11 +1,12 @@
 <template name="articleItem">
-	<div class="panel panel-default">
-		<div class="panel-heading">
-			<h3 class="panel-title">{{title}}</h3>
-			<h3 class="panel-title">Trying to get this to work</h3>
+	<a href="{{url}}">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h3 class="panel-title">{{title}}</h3>
+			</div>
+			<div class="panel-body">
+				{{abstract}}
+			</div>
 		</div>
-		<div class="panel-body">
-			{{abstract}}
-		</div>
-	</div>
+	</a>
 </template>

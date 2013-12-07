@@ -5,7 +5,8 @@
       "bootstrap-simplex": {},
       "accounts-ui-bootstrap-3": {},
       "iron-router": {},
-      "iron-router-progress": {}
+      "iron-router-progress": {},
+      "easy-search": {}
     },
     "packages": {
       "bootstrap-simplex": {
@@ -27,6 +28,11 @@
         "git": "https://github.com/Multiply/iron-router-progress.git",
         "tag": "v0.2.0",
         "commit": "ce730d1d26feadb7c75ea25f22c5bfdb0c549a8b"
+      },
+      "easy-search": {
+        "git": "https://github.com/matteodem/meteor-easy-search.git",
+        "tag": "v0.1.4",
+        "commit": "2c5c984d7eaaca131567019cff26b72585ab37d8"
       }
     }
   }
